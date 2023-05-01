@@ -9,5 +9,5 @@ jobs:
       - name: 'Auto Assign issue'
         uses: pozil/auto-assign-issue@v1.0.3
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.ALL_ACCESS }}
           assignes: hassanarifibm
